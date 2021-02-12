@@ -2,7 +2,7 @@
 
 
 
-## How to run the exciting code
+## How to run the code
 
 
 
