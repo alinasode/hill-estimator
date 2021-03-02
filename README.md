@@ -14,9 +14,9 @@ Given the sorted order statistics <img src="https://render.githubusercontent.com
 
 <img src="https://render.githubusercontent.com/render/math?math=\kappa_n^{(k)} = \Big( k^{-1} \sum_{i=1}^{k} \log{\frac{Y_{(n-i+1)}}{Y_{(n-k)}}} \Big)^{-1} = \Big( \frac{1}{k} \sum_{i=1}^{k} \log{Y_{(n-i %2B 1)}} - \log Y_{(n-k)} \Big)^{-1}, \quad k=1,2,...,n-1">
 
-where _k_ is the number of upper order statistics in the sample used for the estimation and _n_ is the number of observed sample values. With increasing _k_ the Hill estimator is stabilizing. And the question is which _k_ gives a reasonable estimation of <img src="https://render.githubusercontent.com/render/math?math=\kappa">. One might say that a good approximation of <img src="https://render.githubusercontent.com/render/math?math=\kappa"> lies a region where the graph is stable. 
+where _k_ is the number of upper order statistics in the sample used for the estimation and _n_ is the number of observed sample values. With increasing _k_ the Hill estimator is stabilizing, and the question is which _k_ gives a reasonable estimation of <img src="https://render.githubusercontent.com/render/math?math=\kappa">. One might say that a good approximation of <img src="https://render.githubusercontent.com/render/math?math=\kappa"> lies within a region where the graph is stable. 
 
-For more information about the Hill Estimator and in general about heavy-tailed time series analysis I recommend taking a look at this PhD Thesis [[1]](#1).
+For more information about the Hill Estimator, and in general about heavy-tailed time series analysis, I recommend taking a look at this PhD Thesis [[1]](#1).
 
 ## How to run existing code ##
 
